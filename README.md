@@ -13,7 +13,8 @@ Detect forms that perform state-changing actions without CSRF protection.
 ## Demonstration
 
 Before:
-test@lab.local
+spike@lab.local
+
 
 After:
 hahaha@hacked.com
